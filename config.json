@@ -1,5 +1,5 @@
 {
-  "supabaseUrl": "TWÓJ_SKOPIOWANY_URL",
-  "supabasePublishableKey": "TWÓJ_SKOPIOWANY_KLUCZ_API",
+  "supabaseUrl": "https://rsjcysvazfewtcipznca.supabase.co",
+  "supabasePublishableKey": "sb_publishable_9kW1T-S-UQ0NsgVcwTEpjg_XtwB4Rrr",
   "tableName": "tasks"
 }
