@@ -1,0 +1,5 @@
+{
+  "supabaseUrl": "TWÓJ_SKOPIOWANY_URL",
+  "supabasePublishableKey": "TWÓJ_SKOPIOWANY_KLUCZ_API",
+  "tableName": "tasks"
+}
