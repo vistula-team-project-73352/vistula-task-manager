@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Team Contribution</title></head>
+<body>
+  <h1>Team Contribution</h1>
+  <button id="load-contributor">Show Contributor</button>
+  <p id="contributor-student-id"></p>
+  <a href="index.html">Back to Task Manager</a>
+  <script>
+    document.getElementById('load-contributor').onclick = async () => {
+      const d = await (await fetch('contribution.json')).json();
+      document.getElementById('contributor-student-id').textContent =
+        'Contributor Student ID: ' + d.contributorStudentId;
+    };
+  </script>
+</body>
+</html>
